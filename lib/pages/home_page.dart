@@ -12,6 +12,7 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: Center(
+        // ignore: avoid_unnecessary_containers
         child: Container(
           child: Text("Welcome to $days days flutter"),
         ),
